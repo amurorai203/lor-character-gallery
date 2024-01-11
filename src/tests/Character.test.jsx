@@ -52,7 +52,7 @@ describe('Character Component Content Structure', () => {
 
     it("Renders a list item for the Character's DOB", () => {
         render(<Character />);
-        const charDob = screen.getByText(/Date of BBirth:/i);
+        const charDob = screen.getByText(/Date of Birth:/i);
 
         expect(charDob).toBeDefined();
     });
